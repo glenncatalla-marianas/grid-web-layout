@@ -4,8 +4,9 @@ body {
     background-attachment: fixed;
     max-width: 946px;
     margin: auto;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .grid-content {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -35,29 +36,33 @@ body {
     grid-column-end: 5;
     box-shadow: rgb(0, 0, 0) 5px 5px 10px;
 }
+
 .menu {
     position: relative;
     height: 80px;
 
 }
+
 .menu nav {
     position: absolute;
     top: 5px;
     left: 235px;
 }
+
 .header nav ul {
     list-style: none;
 }
 
-.header nav ul > li {
+.header nav ul>li {
     float: left;
     margin: 10px;
 }
-.header nav ul > li > a {
+
+.header nav ul>li>a {
     text-decoration: none;
     color: black;
     text-shadow: rgb(0, 0, 0) 5px 5px 10px,
-    rgb(0, 0, 0) 2px 5px 10px;
+        rgb(0, 0, 0) 2px 5px 10px;
 }
 
 .item1 {
